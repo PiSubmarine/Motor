@@ -5,7 +5,7 @@ include(FetchContent)
 project(${PISUBMARINE_MODULE_NAME}.Test LANGUAGES CXX)
 
 set(${PISUBMARINE_MODULE_NAME}.Test.Sources
-        "PiSubmarine/ModuleTemplate/ModuleTemplateTest.cpp")
+        "PiSubmarine/Motor/DutyRateTest.cpp")
 
 enable_testing()
 
